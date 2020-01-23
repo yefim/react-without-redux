@@ -1,10 +1,10 @@
 import React from 'react';
 
-const CounterRedux = (props) => (
+const CounterRedux2 = (props) => (
   <div>
     <span>{props.counter}</span>
     <button onClick={props.onPlusOne}>+1</button>
   </div>
 );
 
-export default CounterRedux;
+export default CounterRedux2;
